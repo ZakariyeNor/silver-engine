@@ -15,7 +15,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
 }
-
+section {
+    height: 100vh;
+    overflow-y: scroll;
+}
 header {
     padding: 10px;
     position: fixed;
@@ -111,6 +114,11 @@ i {
     color: #e1dfd9;
 }
 
+/* footer */
+#lower-nav {
+    background-color: #e3e1db;
+    height: 200px;
+}
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
     nav {
