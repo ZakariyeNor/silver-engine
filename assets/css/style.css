@@ -11,6 +11,7 @@ body {
     background-image: linear-gradient(rgba(40,50,80,0.5),rgba(40,50,80,0.6)),url(/assets/images/blil.jpg);
     background-position: center;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -21,9 +22,11 @@ header {
     justify-content: space-between;
 }
 
+
 h1 {
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 22px;
+    font-size: 1em;
+    text-transform: uppercase;
 
 }
 
@@ -38,12 +41,29 @@ header a {
     margin-bottom: 0.8em;
 }
 
+
 #menu {
     font-family: 'Tenor Sans', sans-serif;
 }
 nav {
     position: absolute;
     top: 100%;
+    display: none;
 }
+
 #drop {
+    
+    display: none;
+}
+
+i {
+    color: #f7f7f7;
+}
+
+.drop-down {
+    font-size: 30px;
+}
+
+#drop:checked ~ nav {
+    display: block;
 }
