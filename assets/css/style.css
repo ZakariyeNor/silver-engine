@@ -6,8 +6,9 @@
 }
 
 body {
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(rgba(40,50,80,0.5),rgba(40,50,80,0.6)),url(/assets/images/blil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,6 +19,7 @@ body {
 header {
     padding: 10px;
     position: fixed;
+    width: 100%;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -51,6 +53,8 @@ nav {
     position: absolute;
     top: 100%;
     display: none;
+    width: 100%;
+
 }
 
 #drop {
@@ -105,4 +109,28 @@ i {
     font-size: 90%;
     letter-spacing: 1.7px;
     color: #e1dfd9;
+}
+
+/* Media query for tablets and larger devices (min-width: 768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        align-items: baseline;
+        padding-right: 0.9em;
+    }
+    #menu {
+        display: flex;
+        
+    }
+    .drop-down {
+        display: none;
+    }
+    #menu li::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        
+    }
 }
