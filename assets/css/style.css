@@ -82,6 +82,8 @@ i {
     font-size: 115%;
     text-transform: capitalize;
     letter-spacing: normal;
+    color: #efeeec;
+    font-weight: bold;
 }
 #intro p {
     padding: 20px 0;
@@ -90,4 +92,11 @@ i {
     font-size: 90%;
     letter-spacing: 1.5px;
     color: #e1dfd9;
+}
+#more-intro {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    font-size: 110%;
+    color: #efeeec;
 }
