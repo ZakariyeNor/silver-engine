@@ -100,3 +100,9 @@ i {
     font-size: 110%;
     color: #efeeec;
 }
+#mini {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    letter-spacing: 1.7px;
+    color: #e1dfd9;
+}
