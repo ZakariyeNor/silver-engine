@@ -118,19 +118,29 @@ i {
         position: relative;
         width: fit-content;
         align-items: baseline;
-        padding-right: 0.9em;
     }
+    
+    li {
+        padding-right: 25px;
+    }
+
     #menu {
-        display: flex;
-        
+        display: flex;    
     }
+    
     .drop-down {
         display: none;
     }
-    #menu li::after {
+    .direkt ul li::after {
         content: '';
-        width: 100%;
+        width: 0%;
         height: 2px;
-        
+        background: #d79c11;
+        display: block;
+        margin: 0 auto;
+        transition: 0.5s;
+    }
+    .direkt ul li:hover::after {
+        width: 100%;
     }
 }
