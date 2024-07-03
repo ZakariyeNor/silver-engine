@@ -269,7 +269,7 @@ main {
 }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops and desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     h1 {
         font-size: 1.6em;
@@ -282,7 +282,38 @@ main {
         bottom: 100px;
     }
     #networks li {
-        font-size: 120%;
+        font-size: 140%;
     
+    }
+
+    #lower-nav h4 {
+        font-size: 160%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 2em;
+        padding-left: 30px;
+    }
+
+    #menu {
+        font-size: 150%;
+    }
+
+    #networks {
+        position: relative;
+        left: 95em;
+        bottom: 100px;
+    }
+    #networks li {
+        font-size: 170%;
+    
+    }
+
+    #lower-nav h4 {
+        font-size: 160%;
     }
 }
