@@ -3,21 +3,34 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(rgba(40,50,80,0.5),rgba(40,50,80,0.6)),url(/assets/images/blil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    position: relative;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100%;
+    
 }
 section {
     height: 100vh;
-    overflow-y: scroll;
+    width: 100%;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+   
 }
 header {
     padding: 10px;
@@ -65,8 +78,9 @@ nav {
     display: none;
 }
 
-i {
+.drop-down i {
     color: #f7f7f7;
+    padding-right: 1em;
 }
 
 .drop-down {
@@ -116,8 +130,70 @@ i {
 
 /* footer */
 #lower-nav {
-    background-color: #e3e1db;
     height: 200px;
+    width: 100%;
+    background-color: #eceeee;
+}
+
+#lower-nav article {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+ h4 {
+    color: #0a0a08;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+#lower-nav ul {
+    padding-top: 10px;
+}
+
+#connect li {
+    list-style-type: none;
+    margin-top: 1px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 50%;
+    text
+
+}
+
+#connect i {
+    color: #d59f23;
+}
+
+main {
+    width: 100%;
+}
+
+#networks {
+    position: relative;
+    left: 200px;
+    bottom: 81px;
+    display: block;
+}
+#networks h4 {
+    padding-top: 10px;
+    color: #0a0a08;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#networks > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    color: darkblue;
 }
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
