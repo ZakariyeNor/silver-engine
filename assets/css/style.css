@@ -133,7 +133,7 @@ nav {
     height: 200px;
     width: 100%;
     background-color: #eceeee;
-    background-attachment: fixed;
+    
 }
 
 #lower-nav article {
@@ -161,8 +161,6 @@ nav {
     margin-top: 1px;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 50%;
-    text
-
 }
 
 #connect i {
@@ -178,7 +176,9 @@ main {
     left: 200px;
     bottom: 81px;
     display: block;
+    width: 100%;
 }
+
 #networks h4 {
     padding-top: 10px;
     color: #0a0a08;
@@ -196,6 +196,8 @@ main {
     gap: 10px;
     color: darkblue;
 }
+
+
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
     nav {
@@ -246,5 +248,21 @@ main {
 }
 
 /* footer */
+#lower-nav h4 {
+    font-size: 110%;
+}
 
+#connect li {
+    font-size: 76%;
+}
+
+#networks {
+    position: relative;
+    left: 490px;
+    bottom: 100px;
+}
+#networks li {
+    font-size: large;
+
+}
 }
