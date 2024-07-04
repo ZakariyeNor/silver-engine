@@ -28,9 +28,11 @@ section {
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-   
+}
+footer {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
 }
 header {
     padding: 10px;
@@ -129,16 +131,17 @@ nav {
 }
 
 /* footer */
-#lower-nav {
+
+footer {
+    display: flex;
     height: 200px;
+}
+#lower-nav {
     width: 100%;
     background-color: #eceeee;
-    
-}
-
-#lower-nav article {
     padding-top: 10px;
     padding-left: 20px;
+    
 }
 
  h4 {
@@ -156,31 +159,18 @@ nav {
     padding-top: 10px;
 }
 
-#connect li {
+.connect li {
     list-style-type: none;
     margin-top: 1px;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 50%;
+    font-size: 90%;
 }
 
 #connect i {
     color: #d59f23;
 }
 
-main {
-    width: 100%;
-}
-
-#networks {
-    position: relative;
-    left: 200px;
-    bottom: 81px;
-    display: block;
-    width: 100%;
-}
-
 #networks h4 {
-    padding-top: 10px;
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 90%;
@@ -196,6 +186,7 @@ main {
     gap: 10px;
     color: darkblue;
 }
+
 /* Topic section */
 #topic {
     background-color: #263b53;
@@ -225,6 +216,16 @@ main {
         font-size: 90%;
         letter-spacing: 0.3px; 
         color: #f7f7f7;
+}
+
+img {
+    height: 260px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 30px;
+    box-shadow: 2px 0 2px #f7f7f7;
 }
 
 /* Media query for extra small devices (max-width: 600px and down) */
@@ -285,16 +286,14 @@ main {
 /* footer */
 #lower-nav h4 {
     font-size: 110%;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 #connect li {
     font-size: 76%;
 }
 
-#networks {
-    position: relative;
-    left: 490px;
-    bottom: 100px;
+
 }
 #networks li {
     font-size: large;
@@ -310,10 +309,7 @@ main {
         padding-left: 30px;
     }
 
-    #networks {
-        position: relative;
-        left: 650px;
-        bottom: 100px;
+
     }
     #networks li {
         font-size: 140%;
@@ -337,18 +333,14 @@ main {
         font-size: 150%;
     }
 
-    #networks {
-        position: relative;
-        left: 95em;
-        bottom: 100px;
     }
     #networks li {
-        font-size: 170%;
+        font-size: 100%;
     
     }
 
     #lower-nav h4 {
-        font-size: 160%;
+        font-size: 90%;
     }
 
 }
