@@ -204,8 +204,9 @@ main {
 #topic h3 {
     font-family: 'Tenor Sans', sans-serif;
     font-size: large;
-    padding: 20px 0;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
     letter-spacing: 0.5px;
     text-transform: capitalize;
 }
@@ -213,7 +214,18 @@ main {
 #lead {
     font-family: 'Open Sans' sans-serif;
     font-size: medium;
-    margin-top: 30px;
+    
+}
+
+#lead-one {
+    font-size: 100%;
+    text-align: center;
+
+}
+
+#lead-two {
+    font-size: 100%;
+    text-align: center;
 }
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
@@ -334,5 +346,59 @@ main {
 
     #lower-nav h4 {
         font-size: 160%;
+    }
+
+    /* Topic section */
+    #lead {
+        margin-top: 10px;
+    }
+    #topic h3 {
+        text-align: center;
+        font-size: 130%;
+    }
+    #lead-one {
+        text-align: center;
+        font-size: 123%;
+        font-weight: 500;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #lead-two {
+        position: relative;
+        width: 40%;
+        text-align: center;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 90%;
+        letter-spacing: 0.3px;
+        transform: translateX(90px);
+        height: 120px;
+    }
+    #lead-two h3 {
+        text-align: center;
+        font-size: 130%;
+        font-family: 'Tenor Sans', sans-serif;
+    }
+
+    #lead-th {
+        position: relative;
+        left: 670px;
+        bottom: 167px;
+    }
+
+    #lead-th h3 {
+        text-align: center;
+        font-size: 130%;
+        font-family: 'Tenor Sans', sans-serif;
+    }
+    #lead-fr {
+        width: 26%;
+        position: relative;
+        text-align: center;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 90%;
+        letter-spacing: 0.3px;
+        transform: translateX(40px);
+        margin-top: 48px;
     }
 }
