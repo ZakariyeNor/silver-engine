@@ -196,7 +196,25 @@ main {
     gap: 10px;
     color: darkblue;
 }
+/* Topic section */
+#topic {
+    background-color: #f3f3f3;
+}
 
+#topic h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: large;
+    padding: 20px 0;
+    padding-left: 20px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+#lead {
+    font-family: 'Open Sans' sans-serif;
+    font-size: medium;
+    margin-top: 30px;
+}
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
@@ -267,7 +285,8 @@ main {
     font-size: large;
 
 }
-}
+
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
