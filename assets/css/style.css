@@ -198,34 +198,38 @@ main {
 }
 /* Topic section */
 #topic {
-    background-color: #f3f3f3;
+    background-color: #263b53;
 }
 
-#topic h3 {
+#topic h4 {
     font-family: 'Tenor Sans', sans-serif;
     font-size: large;
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
-    letter-spacing: 0.5px;
     text-transform: capitalize;
+    color: #f7f7f7;
 }
 
-#lead {
-    font-family: 'Open Sans' sans-serif;
+#topic h3 {
+    text-align: center;
     font-size: medium;
-    
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 20px;
+    color: #f7f7f7;
 }
 
-#lead-one {
-    font-size: 100%;
-    text-align: center;
-
+#lead p {
+        text-align: center;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 90%;
+        letter-spacing: 0.3px; 
+        color: #f7f7f7;
 }
 
-#lead-two {
-    font-size: 100%;
-    text-align: center;
+/* Media query for extra small devices (max-width: 600px and down) */
+@media screen and (max-width: 600px) {
+
 }
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
@@ -275,7 +279,6 @@ main {
 
 #mini {
     padding: 0 38px;
-    
     letter-spacing: 1.7px;
 }
 
@@ -348,64 +351,4 @@ main {
         font-size: 160%;
     }
 
-    /* Topic section */
-    #lead {
-        margin-top: 10px;
-    }
-    #topic h3 {
-        text-align: center;
-        font-size: 130%;
-    }
-    #lead-one {
-        text-align: center;
-        font-size: 123%;
-        font-weight: 500;
-        display: flex;
-        flex-wrap: wrap-reverse;
-    }
-
-    #lead-two {
-        position: relative;
-        width: 40%;
-        text-align: center;
-        font-family: 'Open Sans' sans-serif;
-        font-size: 90%;
-        letter-spacing: 0.3px;
-        transform: translateX(90px);
-        height: 120px;
-    }
-    #lead-two h3 {
-        text-align: center;
-        font-size: 130%;
-        font-family: 'Tenor Sans', sans-serif;
-    }
-
-    #lead-th {
-        position: relative;
-        left: 670px;
-        bottom: 167px;
-    }
-
-    #lead-th h3 {
-        text-align: center;
-        font-size: 130%;
-        font-family: 'Tenor Sans', sans-serif;
-    }
-    #lead-fr {
-        width: 26%;
-        position: relative;
-        text-align: center;
-        font-family: 'Open Sans' sans-serif;
-        font-size: 90%;
-        letter-spacing: 0.6px;
-        transform: translateX(40px);
-        margin-top: 48px;
-    }
-
-    #lead-fv {
-        position: relative;
-        left: 900px;
-        bottom: 222px;
-
-    }
 }
