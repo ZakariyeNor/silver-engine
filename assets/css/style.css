@@ -34,6 +34,7 @@ footer {
     width: 100%;
     scroll-snap-align: start;
 }
+
 /* header */
 
 header {
@@ -164,6 +165,20 @@ nav {
         color: #f7f7f7;
 }
 
+#sign-up h1 {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 20px;
+    color: #f7f7f7;
+}
+
+#sign-up p {
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    color: #f7f7f7;
+}
 img {
     height: 260px;
     width: 300px;
@@ -174,6 +189,16 @@ img {
     box-shadow: 2px 0 2px #f7f7f7;
 }
 
+/* sign-up page */
+#sign-up {
+    background-color: #7daadf3a;
+    height: 50%;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 0 20px;
+    position: absolute;
+}
 /* footer */
 
 footer {
@@ -349,5 +374,7 @@ footer {
     #lower-nav h4 {
         font-size: 90%;
     }
+
+    
 
 }
