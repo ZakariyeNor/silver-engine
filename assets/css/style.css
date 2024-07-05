@@ -165,20 +165,6 @@ nav {
         color: #f7f7f7;
 }
 
-#sign-up h1 {
-    text-align: center;
-    font-size: medium;
-    font-family: 'Tenor Sans', sans-serif;
-    margin-top: 20px;
-    color: #f7f7f7;
-}
-
-#sign-up p {
-    font-size: small;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 15px;
-    color: #f7f7f7;
-}
 img {
     height: 260px;
     width: 300px;
@@ -194,11 +180,31 @@ img {
     background-color: #7daadf3a;
     height: 50%;
     width: 70%;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 70px;
     padding: 0 20px;
     position: absolute;
     color: #f7f7f7;
+}
+
+#sign-up h1 {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 20px;
+    color: #f7f7f7;
+}
+
+#sign-up p {
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+#sign-up hr {
+    margin: 20px;
 }
 
 .pase {
@@ -333,6 +339,49 @@ footer {
     padding: 0 38px;
     letter-spacing: 1.7px;
 }
+
+/* sign-up page */
+
+#sign-up {
+    height: 50%;
+    width: 70%;
+    margin-top: 170px;
+    margin-left: 70px;
+    padding: 20px 50px;
+    position: absolute;
+    color: #f7f7f7;
+}
+
+#sign-up h1 {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 700;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 20px;
+    color: #f7f7f7;
+}
+
+
+ 
+#sign-up p {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.member {
+    height: 30px;
+    width: 30%;
+    top: 15px;
+    left: 190px;
+    font-size: 110%;
+  
+}
+
+
+
 
 /* footer */
 #lower-nav h4 {
