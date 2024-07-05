@@ -375,12 +375,15 @@ footer {
     height: 30px;
     width: 30%;
     top: 15px;
-    left: 190px;
+    left: 250px;
     font-size: 110%;
   
 }
 
-
+.pase {
+    width: 50%;
+    left: 5px;
+}
 
 
 /* footer */
@@ -409,8 +412,6 @@ footer {
         padding-left: 30px;
     }
 
-
-    }
     #networks li {
         font-size: 140%;
     
@@ -420,7 +421,31 @@ footer {
         font-size: 160%;
     }
 
-}
+    /* Sign-up page */
+    #sign-up {
+        padding-left: 100px;
+    }
+
+    #sign-up h1 {
+        font-size: 145%;
+    }
+
+    #sign-up p {
+        font-size: 130%;
+    }
+    .pase {
+        width: 60%;
+        left: 15px;
+    }
+
+    .member {
+        position: relative;
+        top: 60px;
+        left: 350px;
+    }
+
+    }
+    
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
