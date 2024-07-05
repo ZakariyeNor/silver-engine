@@ -20,7 +20,7 @@ body {
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: auto;
+    height: 100vh;
     width: 100%;
     
 }
@@ -29,10 +29,17 @@ section {
     width: 100%;
     scroll-snap-align: start;
 }
-footer {
+
+#topic {
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
+
+}
+footer {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: none;
 }
 
 /* header */
@@ -242,6 +249,7 @@ footer {
     
 }
 
+
  h4 {
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
@@ -264,7 +272,7 @@ footer {
     font-size: 90%;
 }
 
-#connect i {
+#contacts i {
     color: #d59f23;
 }
 
@@ -297,8 +305,8 @@ footer {
    #menu a {
     color: rgb(236, 229, 229);
     font-size: large;
+    display: block;
    }
-}
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
