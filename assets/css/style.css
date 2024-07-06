@@ -329,6 +329,35 @@ footer {
    text-align: center;
 }
 
+/* define section */
+
+#define {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#define h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 115%;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    color: #efeeec;
+    font-weight: bold;
+    margin-top: 1.2em;
+}
+
+#define p {
+    top: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    letter-spacing: 1.5px;
+    color: #e1dfd9;
+    position: relative;
+    top: 10px;
+   text-align: center;
+}
+
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
     nav {
@@ -423,7 +452,6 @@ footer {
 .pase {
     left: 5px;
 }
-
 
 /* footer */
 #lower-nav h4 {
