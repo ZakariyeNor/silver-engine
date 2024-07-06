@@ -486,6 +486,10 @@ footer {
     height: 10%;
 }
 
+#topic h4 {
+    font-size: 130%;
+}
+
 /* footer */
 #lower-nav h4 {
     font-size: 110%;
@@ -495,9 +499,9 @@ footer {
 #connect li {
     font-size: 76%;
 }
-
-
 }
+
+
 #networks li {
     font-size: large;
 }
@@ -542,6 +546,26 @@ footer {
         top: 60px;
         left: 350px;
     }
+
+    /* picture and text style */
+
+    #media img {
+        height: 30%;
+        width: 40%;
+        position: relative;
+        bottom: 100px;
+    }
+    
+    #title {
+        float: inline-end;
+        width: 30%;
+        height: 10%;
+    }
+    
+    #topic h4 {
+        font-size: 130%;
+    }
+
 
     }
     
