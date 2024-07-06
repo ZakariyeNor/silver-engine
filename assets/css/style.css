@@ -297,12 +297,31 @@ footer {
 }
 
 /* UFE page */
-
-#hero {
+ #hero {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 30vh;
+}
+
+#hero h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 115%;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    color: #efeeec;
+    font-weight: bold;
+}
+#hero p {
+    top: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    letter-spacing: 1.5px;
+    color: #e1dfd9;
+    position: relative;
+    top: 10px;
+   text-align: center;
 }
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
