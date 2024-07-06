@@ -17,33 +17,14 @@ body {
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
 }
-/* Sections */
-
-/* ufe sections */
-.container-u {
-    position: relative;
-    height: fit-content;
-}
-
-#facial {
-    height: fit-content;
-    width: 100%;
-}
-
-#define {
-    background-color: #23374e9f;
-    height: 100vh;
-    width: 100%;
-    scroll-snap-align: start;
-}
 
 /* home sections */
 
-#container-h {
+#container-h, #container-u {
     min-height: 100vh;
     width: 100%;
 }
-#topic {
+#topic, #define {
     min-height: 100vh;
     width: 100%;
     background-color: #467e8e95;
@@ -124,7 +105,7 @@ nav {
     text-align: center;
 }
 
-#intro h2 {
+#intro h2, #hero h2 {
     padding-top: 3.9em;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 115%;
@@ -133,13 +114,16 @@ nav {
     color: #efeeec;
     font-weight: bold;
 }
-#intro p {
+#intro p, #hero p {
     padding: 10px 0;
     top: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 90%;
     letter-spacing: 1.5px;
     color: #e1dfd9;
+}
+#hero p, h2{
+    text-align: center;
 }
 #more-intro {
     font-family: 'Tenor Sans', sans-serif;
@@ -158,7 +142,7 @@ nav {
 
 /* Topic section in home page */
 
-#topic h4 {
+#topic h4, #define h3, #parts h4 {
     font-family: 'Tenor Sans', sans-serif;
     font-size: large;
     padding-top: 20px;
@@ -176,7 +160,7 @@ nav {
     color: #f7f7f7;
 }
 
-#lead p {
+#lead p, #parts p, #define p {
         text-align: center;
         font-family: 'Open Sans' sans-serif;
         font-size: 90%;
@@ -318,73 +302,6 @@ footer {
     font-size: 100%;
     font-family: 'Tenor Sans', sans-serif;
 }
-
-/* UFE page */
- #hero {
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-   transform: translateY(100px);
-}
-
-#hero h2 {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 115%;
-    text-transform: capitalize;
-    letter-spacing: normal;
-    color: #efeeec;
-    font-weight: bold;
-}
-#hero p {
-    top: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 90%;
-    letter-spacing: 1.5px;
-    color: #e1dfd9;
-    position: relative;
-    top: 10px;
-   text-align: center;
-}
-
-/* define section */
-
-#define {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateY(120px);
-    margin-top: 20px;
-}
-
-#define h3 {
-    font-family: 'Tenor Sans', sans-serif;
-    font-size: 115%;
-    text-transform: capitalize;
-    letter-spacing: normal;
-    color: #efeeec;
-    font-weight: bold;
-    text-align: center;
-}
-
-#define p {
-    top: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 90%;
-    letter-spacing: 1.5px;
-    color: #e1dfd9;
-    position: relative;
-    top: 10px;
-   text-align: center;
-   padding: 0 12px;
-}
-
-#cate-g img {
-    position: relative;
-    float: left;
-}
-
-
-
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
     nav {
