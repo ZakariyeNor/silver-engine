@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* main style  */
 /* body */
 body {
     min-height: 100vh;
@@ -79,6 +80,8 @@ header a {
 
 nav {
     position: absolute;
+    box-shadow: 0 2px 2px rgb(59, 65, 31);
+    background-color: #263b53;
     top: 100%;
     display: none;
     width: 100%;
@@ -140,7 +143,7 @@ nav {
 }
 
 
-/* Topic section */
+/* Topic section in home page */
 #topic {
     background-color: #263b53;
 }
@@ -179,56 +182,6 @@ img {
     padding-left: 40px;
     margin-top: 30px;
     box-shadow: 2px 0 2px #f7f7f7;
-}
-
-/* sign-up page */
-#sign-up {
-    background-color: #7daadf3a;
-    height: 50%;
-    width: 70%;
-    margin-top: 70px;
-    margin-left: 70px;
-    padding: 0 20px;
-    position: absolute;
-    color: #f7f7f7;
-}
-
-#sign-up h1 {
-    text-align: center;
-    font-size: medium;
-    font-family: 'Tenor Sans', sans-serif;
-    margin-top: 20px;
-    color: #f7f7f7;
-}
-
-#sign-up p {
-    font-size: small;
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 15px;
-    color: #f7f7f7;
-    text-align: center;
-}
-
-#sign-up hr {
-    margin: 20px;
-}
-
-.pase {
-    color: #f7f7f7;
-    border: 1px solid #f7f7f7;
-    border-radius: 3px;
-    background: transparent;
-}
-
-.member {
-    background-color: #dcc07fbd;
-    height: 30px;
-    width: 30%;
-    position: relative;
-    top: 8px;
-    left: 120px;
-    font-size: 100%;
-    font-family: 'Tenor Sans', sans-serif;
 }
 
 /* footer */
@@ -293,20 +246,64 @@ footer {
     color: darkblue;
 }
 
-/* Media query for extra small devices (max-width: 600px and down) */
-@media screen and (max-width: 600px) {
-    #menu  {
-        background-color: #061437c5;
-        position: absolute;
-        width: 100%;
-        box-shadow: 0 2px 2px black;
-    }
+/* sign-up page */
+#sign-up {
+    background-color: #7daadf3a;
+    height: 50%;
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 0 20px;
+    position: absolute;
+    color: #f7f7f7;
+}
 
-   #menu a {
-    color: rgb(236, 229, 229);
-    font-size: large;
-    display: block;
-   }
+#sign-up h1 {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-top: 20px;
+    color: #f7f7f7;
+}
+
+#sign-up p {
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+#sign-up hr {
+    margin: 20px;
+}
+
+.pase {
+    color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.member {
+    background-color: #dcc07fbd;
+    height: 30px;
+    width: 30%;
+    position: relative;
+    top: 8px;
+    left: 120px;
+    font-size: 100%;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+/* UFE page */
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
@@ -315,7 +312,8 @@ footer {
         position: relative;
         width: fit-content;
         align-items: baseline;
-        
+        box-shadow: none;
+        background-color: transparent;
     }
     
     li {
@@ -417,7 +415,6 @@ footer {
 }
 #networks li {
     font-size: large;
-
 }
 
 
@@ -462,5 +459,8 @@ footer {
     }
 
     }
+    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    
 }
-
