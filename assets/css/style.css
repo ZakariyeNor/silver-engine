@@ -35,8 +35,16 @@ section {
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
-    
+    background-color: #23374e9f; 
 }
+
+#define {
+    background-color: #23374e9f;
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
 footer {
     height: 100vh;
     width: 100%;
@@ -144,9 +152,6 @@ nav {
 
 
 /* Topic section in home page */
-#topic {
-    background-color: #263b53;
-}
 
 #topic h4 {
     font-family: 'Tenor Sans', sans-serif;
