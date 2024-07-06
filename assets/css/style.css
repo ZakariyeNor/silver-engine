@@ -34,7 +34,7 @@ section {
     height: 100vh;
     width: 100%;
     scroll-snap-align: start;
-
+    
 }
 footer {
     height: 100vh;
@@ -462,9 +462,5 @@ footer {
     }
 
     }
-    
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-    
 }
+
