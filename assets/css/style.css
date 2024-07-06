@@ -221,11 +221,11 @@ footer {
 }
 
 
- h4 {
+ #lower-nav h4 {
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 90%;
-    font-weight: bold;
+    font-size: 100%;
+    font-weight: 500;
     letter-spacing: 0.5px;
     line-height: normal;
     text-transform: capitalize;
@@ -240,19 +240,20 @@ footer {
     list-style-type: none;
     margin-top: 1px;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 90%;
+    font-size: 70%;
 }
 
 #contacts i {
-    color: #d59f23;
+    color: #0b73ebe7;
 }
 
 #networks h4 {
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 90%;
-    font-weight: bold;
+    font-size: 100%;
+    font-weight: 500;
     letter-spacing: 0.5px;
+    padding-right: 13px;
     line-height: normal;
     text-transform: capitalize;
 }
@@ -260,8 +261,12 @@ footer {
 #networks > ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
-    color: darkblue;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+#social a {
+    color: #0b73ebe7;
 }
 
 /* sign-up page */
