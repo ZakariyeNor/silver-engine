@@ -179,7 +179,7 @@ nav {
 
 #lead p, #parts p, #define p {
         text-align: center;
-        font-family: 'Open Sans' sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 90%;
         letter-spacing: 0.3px; 
         color: #f7f7f7cd;
@@ -333,7 +333,7 @@ footer {
 
 #mind p {
     text-align: center;
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 90%;
     letter-spacing: 0.3px; 
     color: #f7f7f7cd;
@@ -511,7 +511,7 @@ footer {
 
     /* picture and text style */
 
-    #media img, {
+    #media img {
         height: 30%;
         width: 40%;
         position: relative;
@@ -528,9 +528,7 @@ footer {
         font-size: 130%;
     }
 
-    #sub-title {
-       po
-    }
+    
 
     #cate-g img {
         height: 40%;
