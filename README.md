@@ -67,3 +67,4 @@ Body language Institute website is for a school where people learn body language
 ### Features Left to Implement
 
 - Make payment option in a separate section.
+
