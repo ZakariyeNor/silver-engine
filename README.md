@@ -68,3 +68,32 @@ Body language Institute website is for a school where people learn body language
 
 - Make payment option in a separate section.
 
+## Testing
+
+- You can find the testing document in the. 
+* * Silver-engine/assets/text.info
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](Read in text.info in assets)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](Read in text.info in assets)
+
+## Deployment
+
+- The site was deployed as follows: 
+  - Site was deployed on Github
+  - [Deployed Site] (https://zakariyenor.github.io/silver-engine/)
+
+## Credits 
+
+- I took some of the text on the page from [Science Of People](https://www.scienceofpeople.com/)
+- Some text was been generated chatgpt [Chatgpt](https://chatgpt.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The font-family and font-types took from [Google Font](https://fonts.google.com/?preview.layout=grid)
+- Got extra help from tutor assistance [Code Institute](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
+
+### Media
+
+-  I downloaded the pictures on the pages (home, ufe and background-img) from [Pexels](pexels.com)
