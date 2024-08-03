@@ -69,6 +69,19 @@ Body language Institute website is for a school where people learn body language
 - Make payment option in a separate section.
 
 ## Visuals
+  - I use simple, consistent page layouts were used across four pages.
+
+### Landing Page 
+  ![Home Page](media/home-fig.png)
+
+### UFE Page 
+  ![UFE Page](media/ufe-fig.png)
+
+### About Page 
+  ![About Page](media/about-fig.png)
+
+### Sign-up Page 
+  ![Sign-up Page](media/sign-up-fig.png)
 
 ## Testing
 
