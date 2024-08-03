@@ -68,6 +68,8 @@ Body language Institute website is for a school where people learn body language
 
 - Make payment option in a separate section.
 
+## Visuals
+
 ## Testing
 
 - You can find the testing document in the. 
