@@ -175,6 +175,7 @@ nav {
     font-family: 'Tenor Sans', sans-serif;
     margin-top: 20px;
     color: #f7f7f7;
+    width: 50%;
 }
 
 #lead p, #parts p, #define p {
@@ -183,6 +184,7 @@ nav {
         font-size: 90%;
         letter-spacing: 0.3px; 
         color: #f7f7f7cd;
+        width: 60%;
 }
 
 img {
@@ -534,10 +536,10 @@ footer {
     /* picture and text style */
 
     #media img {
-        height: 30%;
-        width: 40%;
+        width: 30%;
         position: relative;
-        bottom: 100px;
+        bottom: 200px;
+        right: 30px;
     }
     
     #title {
