@@ -343,6 +343,10 @@ footer {
     padding-top: 20px;
 }
 
+#networks li {
+    font-size: large;
+}
+
 /* Media query for extra small screens */
 @media screen and (max-width: 576px) {
     #sign-up {
@@ -386,6 +390,49 @@ footer {
         margin-top: 10px;
     }
 }
+
+@media screen and (min-width: 576px) {
+    #sign-up {
+        height: 65%;
+        width: 80%;
+        margin: 35px;
+        padding: 0 40px;
+        padding: 0 0 0 15px;
+        position: absolute;
+        color: #f7f7f7;
+    }
+
+    .member {
+        background-color: #dcc07fbd;
+        height: 30px;
+        width: 40%;
+        position: relative;
+        top: 20px;
+        left: 150px;
+    }
+    
+    #topic h3 {
+        width: 100%;
+    }
+
+    #lead p, #parts p, #define p {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    img {
+        height: 60%;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+
+    figcaption {
+        padding: 0 15px;
+        margin-top: 10px;
+    }
+}
+
+
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
     nav {
@@ -508,12 +555,6 @@ footer {
     font-size: 76%;
 }
 }
-
-
-#networks li {
-    font-size: large;
-}
-
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
