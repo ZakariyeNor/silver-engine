@@ -352,8 +352,7 @@ footer {
     #sign-up {
         height: 65%;
         width: 80%;
-        margin: 35px;
-        padding: 0 40px;
+        margin: 60px 35px 30px 20px;
         padding: 0 0 0 15px;
         position: absolute;
         color: #f7f7f7;
@@ -622,6 +621,15 @@ footer {
         float: inline-end;
     }
 
+    #sign-up {
+        height: 60%;
+        width: 80%;
+        margin-top: 70px;
+        margin-left: 70px;
+        padding: 20px 50px;
+        color: #f7f7f7;
+    }
+
     }
     
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -683,4 +691,10 @@ footer {
 #mind p {
     font-size: 120%;
 }
+
+#media {
+    width: 30%;
+    height: 50%;
+}
+
 }
