@@ -60,6 +60,7 @@ header {
     align-items: baseline;
     justify-content: space-between;
     background-color: #263b53;
+    z-index: 200;
     }
 
 
