@@ -27,7 +27,7 @@ body {
 #topic {
     min-height: 100vh;
     width: 100%;
-    background-color: #467e8e95;
+    background-color: #467e8e;
     margin-bottom: 160px;
 }
 
@@ -59,7 +59,8 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-}
+    background-color: #263b53;
+    }
 
 
 h1 {
@@ -92,6 +93,8 @@ nav {
     top: 100%;
     display: none;
     width: 100%;
+    left: 0;
+    padding: 0 10px;
 }
 
 #drop {
