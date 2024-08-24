@@ -12,7 +12,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(40,50,80,0.5),rgba(40,50,80,0.6)),url(../images/blil.jpg);
+    background-image: linear-gradient(rgb(24 34 62 / 74%), rgb(42 55 81 / 60%)),url(../images/blil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
@@ -27,21 +27,21 @@ body {
 #topic {
     min-height: 100vh;
     width: 100%;
-    background-color: #467e8e;
+    background-color: #1c3b44d6;
     margin-bottom: 160px;
 }
 
 #define {
     min-height: 100vh;
     width: 100%;
-    background-color: #467e8e95;
+    background-color: #1c3b44d6;
     margin-bottom: 160px;
 }
 
 #summary {
     min-height: 100vh;
     width: 100%;
-    background-color: #467e8e95;
+    background-color: #1c3b44d6;
     margin-bottom: 160px;
 }
 
@@ -116,10 +116,12 @@ nav {
 }
 
 /* Intro section */
-#intro {
+#intro, #facial {
     color: #f7f7f7;
     text-align: center;
-}
+    background-color: #3651598b;
+    }
+    
 
 #intro h2, #hero h2 {
     padding-top: 3.9em;
@@ -127,7 +129,7 @@ nav {
     font-size: 115%;
     text-transform: capitalize;
     letter-spacing: normal;
-    color: #efeeec;
+    color: #ffffff;
     font-weight: bold;
 }
 #intro p, #hero p {
@@ -136,7 +138,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 90%;
     letter-spacing: 1.5px;
-    color: #e1dfd9;
+    color: #ffffff;
 }
 #hero p, h2{
     text-align: center;
@@ -152,7 +154,8 @@ nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 90%;
     letter-spacing: 1.7px;
-    color: #e1dfd9;
+    color: #ffffff;
+    padding: 20px 10px;
 }
 
 
@@ -277,9 +280,10 @@ footer {
 
 /* sign-up page */
 #sign-up {
-    background-color: #7daadf3a;
+    background-color: #3c6ca573;
     height: 50%;
     width: 70%;
+    border-radius: 15px;
     margin-top: 70px;
     margin-left: 70px;
     padding: 0 20px;
@@ -355,7 +359,7 @@ footer {
     #sign-up {
         height: 65%;
         width: 80%;
-        margin: 60px 35px 30px 20px;
+        margin: 80px 35px 30px 20px;
         padding: 0 0 0 15px;
         position: absolute;
         color: #f7f7f7;
@@ -481,10 +485,9 @@ footer {
         padding: 10px 28px;
     }
 
-#mini {
-    padding: 0 38px;
-    letter-spacing: 1.7px;
-}
+    #mini {
+        padding: 20px 10px;
+    }
 
 /* sign-up page */
 
@@ -580,6 +583,10 @@ footer {
 
     #lead p, #parts p, #define p {
         font-size: 110%;
+    }
+
+    #mini {
+        padding: 20px 10px;
     }
 
     /* Sign-up page */
@@ -710,4 +717,18 @@ footer {
     font-size: 120%;
 }
 
+#intro {
+    font-size: 130%;
+    }
+
+    #intro p, #hero p {
+        font-size: 110%;
+        color: #ffffff;
+    }
+
+    #mini {
+        font-size: 100%;
+        color: #ffffff;
+        padding: 20px 30px;
+    }
 }
