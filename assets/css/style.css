@@ -43,7 +43,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background-color: #1c3b44d6;
-    margin-bottom: 160px;
+    padding-bottom: 165px;
 }
 
 
@@ -125,7 +125,7 @@ nav {
     }
     
 
-#intro h2, #hero h2 {
+#intro h2, #hero h2, #mind h2 {
     padding-top: 3.9em;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 115%;
@@ -332,7 +332,7 @@ footer {
     font-family: 'Tenor Sans', sans-serif;
 }
 
-#mind h1 {
+#mind h3 {
     padding-top: 3.9em;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 115%;
@@ -504,7 +504,7 @@ footer {
     color: #f7f7f7;
 }
 
-#sign-up h1 {
+#sign-up h2 {
     text-align: center;
     font-size: 120%;
     font-weight: 700;
@@ -597,8 +597,8 @@ footer {
         padding-left: 100px;
     }
 
-    #sign-up h1 {
-        font-size: 145%;
+    #sign-up h2 {
+        font-size: 155%;
     }
 
     #sign-up p {
@@ -661,6 +661,7 @@ footer {
 
     #cate-g img {
         bottom: 0;
+        margin: 0;
     }
     
     #title, #sub-title {
@@ -712,7 +713,7 @@ footer {
     }
 
     /* about page  */
-#mind h1 {
+#mind h3 {
     font-size: 145%;
 }
 
