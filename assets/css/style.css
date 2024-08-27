@@ -379,7 +379,7 @@ footer {
     padding-top: 20px;
 }
 
-/* Media query for extra small screens */
+/* Media query for extra small screens (max-width: 567px) */
 @media screen and (max-width: 576px) {
 
 /* styling the form so the user can send info from extra small screens and style the send button so it can have appropriate width and height and position right bottom */
@@ -426,7 +426,9 @@ footer {
     }
 }
 
+/* Media query for small screens (min-width: 576px and up) */
 @media screen and (min-width: 576px) {
+/* style form and send button for small screens so it can be seen and user can have the ability to send the form */
     #sign-up {
         height: 65%;
         width: 80%;
@@ -446,6 +448,7 @@ footer {
         left: 150px;
     }
     
+    /* Style the texts all across the page for small screens (giving them full width) */
     #topic h3 {
         width: 100%;
     }
@@ -455,6 +458,7 @@ footer {
         padding: 0 10px;
     }
 
+    /* Give the img full width and 60% height and figcaption under the img */
     img {
         height: 60%;
         padding: 0 20px;
@@ -466,7 +470,6 @@ footer {
         margin-top: 10px;
     }
 }
-
 
 /* Media query for tablets and larger devices (min-width: 768px and up) */
 @media screen and (min-width: 768px) {
