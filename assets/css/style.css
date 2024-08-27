@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
 
+/* General page reset so it can overrides the default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* main style  */
-/* body */
+
+/* General body styles (set background, font and flexbox layout)*/
 body {
     min-height: 100vh;
     width: 100%;
@@ -19,12 +20,13 @@ body {
     background-attachment: fixed;
 }
 
-/* home sections */
-
+/* Section containers: each section takes full viewport of height and width */
 #container-h, #container-u, #container-a {
     min-height: 100vh;
     width: 100%;
 }
+
+/* set background color, padding-bottom, height and width */
 #topic {
     min-height: 100vh;
     width: 100%;
@@ -32,6 +34,7 @@ body {
     padding-bottom: 340px;
 }
 
+/* setting background and bottom margin to the define section */
 #define {
     min-height: 100vh;
     width: 100%;
@@ -39,6 +42,7 @@ body {
     margin-bottom: 160px;
 }
 
+/* setting background and bottom-padding*/
 #summary {
     min-height: 100vh;
     width: 100%;
@@ -46,13 +50,13 @@ body {
     padding-bottom: 165px;
 }
 
-
+/* bottom margin for the lead-fv div so it appears much more over the footer */
 #lead-fv {
     margin-bottom: 150px;
 }
 
 /* header */
-
+/* set background color, make it static and flexbox layout and make the header appears all over the other contents (z index)  */
 header {
     padding: 10px;
     position: fixed;
@@ -64,30 +68,30 @@ header {
     z-index: 200;
     }
 
-
+/* Global h1 styles: set font family, sizes and transform the text  */
 h1 {
     font-family: 'Tenor Sans', sans-serif;
     font-size: 1em;
     text-transform: uppercase;
 
 }
-
+/* set text color, padding right and remove underline decoration */
 header a {
     text-decoration: none;
     color: #f7f7f7;
     padding-right: 30px;
 }
-
+/* give space between the list items and remove bullet points */
 #menu > li {
     list-style-type: none;
     margin-bottom: 0.8em;
 }
 
-
+/* setting font family */
 #menu {
     font-family: 'Tenor Sans', sans-serif;
 }
-
+/* positioning and adding box shadow so it seems over the body and hiding so it can display when user clicks on the menu icon */
 nav {
     position: absolute;
     box-shadow: 0 2px 2px rgb(59, 65, 31);
@@ -98,33 +102,33 @@ nav {
     left: 0;
     padding: 0 10px;
 }
-
+/* Hide the checkbox */
 #drop {
 
     display: none;
 }
-
+/* set color and padding right to the menu icon */
 .drop-down i {
     color: #f7f7f7;
     padding-right: 1em;
 }
-
+/* Set menu icon size */
 .drop-down {
     font-size: 30px;
 }
-
+/* display the menu or the navigation items when user clicks on the menu icon */
 #drop:checked ~ nav {
     display: block;
 }
 
-/* Intro section */
+/* Intro section: set color, background color and center the text*/
 #intro, #facial {
     color: #f7f7f7;
     text-align: center;
     background-color: #3651598b;
     }
     
-
+/* Global h2 and the paragraohs of the intro and hero sections styles: setting the padding, font family, weight and sizes, transforming, color and letter spacing */
 #intro h2, #hero h2, #mind h2 {
     padding-top: 3.9em;
     font-family: 'Tenor Sans', sans-serif;
@@ -145,6 +149,7 @@ nav {
 #hero p, h2{
     text-align: center;
 }
+/* General style for the more intro section and mini */
 #more-intro {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 800;
@@ -161,7 +166,7 @@ nav {
 }
 
 
-/* Topic section in home page */
+/* styling the topic section in home page: setting the font family, size, padding, color and transforming text to the capitalize and centering the text */
 
 #topic h4, #define h3, #parts h4 {
     font-family: 'Tenor Sans', sans-serif;
@@ -173,10 +178,11 @@ nav {
     color: #f7f7f7;
 }
 
+/* add padding to the text so it can have space between the picture and the left side of the page */
 #parts p {
     padding: 0 29px;
 }
-
+/* Global h3 style: fonts, color and width  */
 #topic h3 {
     text-align: center;
     font-size: medium;
@@ -186,6 +192,7 @@ nav {
     width: 50%;
 }
 
+/* Global paragraph styles for the UFE page */
 #lead p, #parts p, #define p {
         text-align: center;
         font-family: 'Open Sans', sans-serif;
@@ -195,6 +202,7 @@ nav {
         width: 60%;
 }
 
+/* Global img styles:etting height, width, positioning to the right and inherit from the parent elemnt (media) and global figcaption styles: setting fonts, padding, margin, and color */
 img {
     height: 200px;
     width: 50%;
@@ -213,8 +221,9 @@ figcaption {
     margin-top: 20px;
 
 }
-/* footer */
 
+/* footer */
+/* Global footer styles: give the height, full width, make it static (fixed) add flexbox style so the text and icons be on the same line */
 footer {
     display: flex;
     height: 150px;
@@ -224,15 +233,15 @@ footer {
     width: 100%;
     justify-content: space-between;
 }
+/* give full width of the container (footer) set different color and position using padding */
 #lower-nav {
     width: 100%;
     background-color: #eceeee;
     padding-top: 10px;
     padding-left: 20px;
-    
 }
 
-
+/* Set fonts, color, height, letter spacing and transform h4 of the footer */
  #lower-nav h4 {
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
@@ -244,21 +253,24 @@ footer {
 
 }
 
+/* give space between  the contact us and the contact list */
 #lower-nav ul {
     padding-top: 10px;
 }
 
+/* remove bullet points and give them space and add fonts */
 .connect li {
     list-style-type: none;
     margin-top: 1px;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 70%;
 }
-
+/* set color to phone and email icons */
 #contacts i {
     color: #0b73ebe7;
 }
 
+/* give general style to the social media icons header: fonts, color, line height and transform the text */
 #networks h4 {
     color: #0a0a08;
     font-family: 'Tenor Sans', sans-serif;
@@ -270,18 +282,20 @@ footer {
     text-transform: capitalize;
 }
 
+/* remove bullet points, align them on same line and give 'em space to the right */
 #networks > ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
 }
-
+/* set color to the social media icons*/
 #social a {
     color: #0b73ebe7;
 }
 
-/* sign-up page */
+/* sign-up form styles */
+/* sign-up form style: backgroud color, text color, height, width and positioning */
 #sign-up {
     background-color: #3c6ca573;
     height: 50%;
@@ -294,6 +308,7 @@ footer {
     color: #f7f7f7;
 }
 
+/* form header text styles */
 #sign-up h1 {
     text-align: center;
     font-size: medium;
@@ -302,6 +317,7 @@ footer {
     color: #f7f7f7;
 }
 
+/* P: setting fonts, color and centering the text */
 #sign-up p {
     font-size: small;
     font-family: 'Open Sans', sans-serif;
@@ -310,6 +326,7 @@ footer {
     text-align: center;
 }
 
+/* Horrizentol line: give space around the element */
 #sign-up hr {
     margin: 20px;
 }
