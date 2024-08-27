@@ -606,11 +606,13 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+/* Make the header bigger and give space on the left side */
     h1 {
         font-size: 1.6em;
         padding-left: 30px;
     }
-
+/* make the social media icons, footer h4, topic section h3, #lead p, #parts p, #define p and #mini sections a bigger for the laptops and desktops */
     #networks li {
         font-size: 140%;
     
@@ -624,6 +626,10 @@ footer {
         font-size: 130%;
     }
 
+    #topic h4 {
+        font-size: 150%;
+    }
+
     #lead p, #parts p, #define p {
         font-size: 110%;
     }
@@ -633,8 +639,14 @@ footer {
     }
 
     /* Sign-up page */
+/* Style the form, form h2, p, form inputs and send button for the laptops and desktops (make them bigger so it can be seen and be readable) */
     #sign-up {
-        padding-left: 100px;
+        height: 60%;
+        width: 80%;
+        margin-top: 70px;
+        margin-left: 70px;
+        padding: 20px 50px;
+        color: #f7f7f7;
     }
 
     #sign-up h2 {
@@ -655,8 +667,7 @@ footer {
         left: 350px;
     }
 
-    /* picture and text style */
-
+/* Style the images and figcaptions for the laptops and desktop screen sizes */
     #media img, #cate-g img {
         height: fit-content;
         width: 35%;
@@ -668,19 +679,6 @@ footer {
         float: inline-end;
         width: 30%;
         height: 10%;
-    }
-    
-    #topic h4 {
-        font-size: 150%;
-    }
-
-    #sign-up {
-        height: 60%;
-        width: 80%;
-        margin-top: 70px;
-        margin-left: 70px;
-        padding: 20px 50px;
-        color: #f7f7f7;
     }
 
     }
