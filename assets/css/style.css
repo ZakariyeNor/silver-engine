@@ -289,6 +289,10 @@ footer {
     justify-content: space-between;
     padding-right: 10px;
 }
+/* List items font size */
+#networks li {
+    font-size: large;
+}
 /* set color to the social media icons*/
 #social a {
     color: #0b73ebe7;
@@ -331,6 +335,7 @@ footer {
     margin: 20px;
 }
 
+/* Form input style: set color, bordr and make th ebackground color transparent */
 .pase {
     color: #f7f7f7;
     border: 1px solid #f7f7f7;
@@ -338,6 +343,7 @@ footer {
     background: transparent;
 }
 
+/* send button style: add action color, height, widhth, fonts and position it */
 .member {
     background-color: #dcc07fbd;
     height: 30px;
@@ -349,6 +355,8 @@ footer {
     font-family: 'Tenor Sans', sans-serif;
 }
 
+/* About page */
+/* Set general style to h3 of about page (Fonts, letter spacing, align the text center, transform the text and position it */
 #mind h3 {
     padding-top: 3.9em;
     font-family: 'Tenor Sans', sans-serif;
@@ -360,6 +368,7 @@ footer {
     text-align: center;
 }
 
+/* Set general style for about page paragraphs (center the text, set fonts, color, position it and give letter spacing */
 #mind p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -368,10 +377,6 @@ footer {
     color: #f7f7f7cd;
     padding: 0 20px;
     padding-top: 20px;
-}
-
-#networks li {
-    font-size: large;
 }
 
 /* Media query for extra small screens */
