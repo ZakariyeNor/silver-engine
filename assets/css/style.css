@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
 }
 
 /* home sections */
@@ -28,7 +29,7 @@ body {
     min-height: 100vh;
     width: 100%;
     background-color: #1c3b44d6;
-    margin-bottom: 160px;
+    padding-bottom: 340px;
 }
 
 #define {
@@ -200,6 +201,7 @@ img {
     float: right;
     position: relative;
     right: 5px;
+    object-fit: contain;
 }
 
 figcaption {
