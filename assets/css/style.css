@@ -685,8 +685,8 @@ footer {
     
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-     /* picture and text style */
 
+/* Style the images and the figcaption for the extral large laptops and large desktops so it can fit and be readable */
      #media img, #cate-g img {
         height: 700px;
         width: 40%;
@@ -696,17 +696,18 @@ footer {
         padding: 25px 13px 20px 0;
         float: inline-end;
     }
-
-    #cate-g img {
-        bottom: 0;
-        margin: 0;
-    }
     
     #title, #sub-title {
         width: 30%;
         height: 10%;
     }
     
+    /* Give 0 bottom and margin so it overrides the styles and make the picture align right and middle and style figcaption also */
+    #cate-g img {
+        bottom: 0;
+        margin: 0;
+    }
+
     #sub-title {
         float: inline-end;
         width: 30%;
@@ -715,6 +716,7 @@ footer {
         font-size: 100%;
     }
 
+    /* Make readable and style the paragraphs and headers of the sections all across the website for the extra large laptops and large desktops */
     #parts p {
         width: 80%;
         font-size: 110%;
@@ -751,15 +753,15 @@ footer {
     }
 
     /* about page  */
-#mind h3 {
+    #mind h3 {
     font-size: 145%;
 }
 
-#mind p {
+    #mind p {
     font-size: 120%;
 }
 
-#intro {
+    #intro {
     font-size: 130%;
     }
 
@@ -768,6 +770,7 @@ footer {
         color: #ffffff;
     }
 
+    /* Set color, padding and font size for the mini section */
     #mini {
         font-size: 100%;
         color: #ffffff;
