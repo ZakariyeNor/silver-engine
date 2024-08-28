@@ -30,7 +30,6 @@ depends which one the user clicked.
 - about.html: errors ( more h1 elements, one more icons closing tag and the main section did'nt had article closing tag and the footer had main element instead of div)
 - sign.up: errors (main element in the footer, more h1 elements, no article closing tag)
 - ufe: errors (more h1 elements)
-- I fixed the errors and warnings
-
+- I fixed the errors and there is one warning
 
 
