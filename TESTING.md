@@ -24,12 +24,13 @@ depends which one the user clicked.
 
 ### During testing assets/Text.info
 
-- I did 10 hours ago and I don't realy remeber everything. 
+##### Second testing 
 - Css No error was found except the font-family import.
-index.html: as i remeber i changed main in sections to div and removed <i> icon text and some more. 
-about.html: I changed some main in a section to div and I did some things more. 
-sign.up: I think that the sign-up page had no error found 
-ufe: I don't remeber but i sure did some changes here also. 
+- index.html: errors (more h1 elements)
+- about.html: errors ( more h1 elements, one more icons closing tag and the main section did'nt had article closing tag and the footer had main element instead of div)
+- sign.up: errors (main element in the footer, more h1 elements, no article closing tag)
+- ufe: errors (more h1 elements)
+- I fixed the errors and warnings
 
 
 
