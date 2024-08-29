@@ -30,6 +30,7 @@ depends which one the user clicked.
 - about.html: errors ( more h1 elements, one more icons closing tag and the main section did'nt had article closing tag and the footer had main element instead of div)
 - sign.up: errors (main element in the footer, more h1 elements, no article closing tag)
 - ufe: errors (more h1 elements)
-- I fixed the errors and there is one warning
+- I fixed the errors and there was one warning I got help with the Tutor assistant. I had h1 in anchor and the validator gave me warning that I shall use the h1 as a top level element. I fixed this to change the h1 element to h2 and give class and so the style takes the class name. 
+
 
 

@@ -68,8 +68,8 @@ header {
     z-index: 200;
     }
 
-/* Global h1 styles: set font family, sizes and transform the text  */
-h1 {
+/* Global h2 styles: set font family, sizes and transform the text  */
+.institute-title {
     font-family: 'Tenor Sans', sans-serif;
     font-size: 1em;
     text-transform: uppercase;
@@ -513,8 +513,8 @@ footer {
         width: 100%;
     }
 
-    /* Make the global h1 bigger so it can suits the ipad size screens and give space on the left side */
-    h1 {
+    /* Make the global h2 bigger so it can suits the ipad size screens and give space on the left side */
+    .institute-title {
         font-size: 1.1em;
         padding-left: 30px;
     }
@@ -608,7 +608,7 @@ footer {
 @media screen and (min-width: 992px) {
 
 /* Make the header bigger and give space on the left side */
-    h1 {
+.institute-title {
         font-size: 1.6em;
         padding-left: 30px;
     }
