@@ -61,7 +61,6 @@ Body language Institute website is for a school where people learn body language
 
   - This section will allow the user to send their personal information and payment option to learn the body language "Nonverbal Communication" course.
   - In the sign up page the user will be asked to submit their first, last name, email, phone number, and the payment option they would like to choose.
-  - Users can fill out and send forms effortlessly to get in touch and register for courses.
 
 ![Sign Up](mockups/sign-up_page.png)
 
@@ -75,6 +74,15 @@ Body language Institute website is for a school where people learn body language
 - Users should learn why body language is a crucial aspect of nonverbal communication and how it impacts interpersonal interactions.
 - Users should easily find information about available courses, including details on content, schedule, and enrollment.
 - Users should be able to navigate the website effortlessly and find the information they need without confusion.
+- Users can fill out and send forms effortlessly to get in touch and register for courses.
+
+### Site Owner Goals
+- Attract and keep visitors by providing helpful body language tips and well designed content and make them waant to explore more.
+- Ensure smooth navigation and accessibility on the site and make it simple for users to find information.
+- Give the introduction of the universal facial expressions with images and examples to make the content interesting and easy to understand.
+- Provide comprehensive information about available courses, including descriptions, prices and payment options make it easy for users to understand how to pay for courses.
+- Share the history of the institute to build trust and credibility with prospective students.
+- Allow users to choose their preferred payment option when filling out the form.
 
 ### Target Audience
   - For people who want to learn how to read and use body language to build better relationships, be more persuasuve, and understand others better.
