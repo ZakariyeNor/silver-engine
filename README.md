@@ -144,14 +144,14 @@ Body language Institute website is for a school where people learn body language
 
 ## Credits 
 
-- I took some of the text on the page from [Science Of People](https://www.scienceofpeople.com/)
-- Some text was been generated chatgpt [Chatgpt](https://chatgpt.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The font-family and font-types took from [Google Font](https://fonts.google.com/?preview.layout=grid)
+- I took the text contents of the Home and UFE page from the [Science Of People](https://www.scienceofpeople.com/)
+- The history of the institute and the course description texts in the About page was been generated in chatgpt text generator [Chatgpt](https://chatgpt.com/)
+- The icons in the footer (email, phone and socail media icons) were taken from [Font Awesome](https://fontawesome.com/)
+- The font-family and font-types (Text genetics) took from [Google Font](https://fonts.google.com/?preview.layout=grid)
 - Got extra help from tutor assistance [Code Institute](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
 
 ### Media
 
--  I downloaded the pictures on the pages (home, ufe and background-img) from [Pexels](pexels.com)
+-  I downloaded the pictures on the pages (home ( home page picture of setting therapist), ufe (picture of a women for positive facial expression) and background-img) from [Pexels](pexels.com)
 
 
