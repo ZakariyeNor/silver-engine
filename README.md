@@ -68,14 +68,20 @@ Body language Institute website is for a school where people learn body language
 
 - Make payment option in a separate section.
 
-# UX/UI
+## UX/UI
 
-## Target Audience
+### Target Audience
   - For people who want to learn how to read and use body language to build better relationships, be more persuasuve, and understand others better.
   - Students and researchers interested in psychology, human behavior, or communication studies.
   - People who want to refine their body language skills to enhance their performances, ensuring that their physical expressions align with their roles and messages.
 
-## User Stories
+### User Stories
+  - As a study adviser, I need to find an institute that offers nonverbal communication courses, so I can guide students seeking to enhance their communication skills.
+  - As a sales professional, I want to learn how to read my clients' body language, so that I can adjust my approach and increase my chances of closing deals.
+  - As a student, I need information and an introduction to body language courses, so I can decide if the institute meets my needs and expectations.
+  - As a private student, I need to be able to contact the institute, so I can get personalized information and support.
+  - As a background checker, I need to know the history of the institute, so I can verify its credibility and reputation.
+  - As a user, I want the ability to submit forms and choose payment options, so I can complete my enrollment or purchase smoothly.
 
 ## Mockups
   - I use simple, consistent page layouts were used across four pages.
