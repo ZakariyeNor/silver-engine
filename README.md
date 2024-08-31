@@ -68,6 +68,15 @@ Body language Institute website is for a school where people learn body language
 
 - Make payment option in a separate section.
 
+# UX/UI
+
+## Target Audience
+  - For people who want to learn how to read and use body language to build better relationships, be more persuasuve, and understand others better.
+  - Students and researchers interested in psychology, human behavior, or communication studies.
+  - People who want to refine their body language skills to enhance their performances, ensuring that their physical expressions align with their roles and messages.
+
+## User Stories
+
 ## Mockups
   - I use simple, consistent page layouts were used across four pages.
 
