@@ -152,6 +152,6 @@ Body language Institute website is for a school where people learn body language
 
 ### Media
 
--  I downloaded the pictures on the pages (home ( home page picture of setting therapist), ufe (picture of a women for positive facial expression) and background-img) from [Pexels](pexels.com)
+-  I downloaded the pictures on the pages (home "home page picture of setting therapist", ufe "picture of a women for positive facial expression" and background-img "Covered as a background all across the pages) from [Pexels](pexels.com)
 
 
