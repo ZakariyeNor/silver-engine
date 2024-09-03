@@ -127,14 +127,19 @@ Body language Institute website is for a school where people learn body language
 ## Testing
 
 - You can find the testing document in the. 
-* * ![TESTING.md](TESTING.md)
+* * [TESTING.md](TESTING.md)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](Read in text.info in assets)
+  - Returned errors were and warnings when passing through the official [W3C validator](Read in text.info in assets)
+  - Index HTML [Home Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/index.html)
+  - UFE HTML [UFE Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/ufe.html)
+  - ABOUT HTML [Abput Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/about.html)
+  - SIGN-UP HTML [SIGN-UP Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/sign-up.html)
+  
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](Read in text.info in assets)
+  - No errors were found when passing through the official [(Jigsaw) validator](More info in TESTING.md file)
 
 ## Deployment
 
