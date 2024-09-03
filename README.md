@@ -133,13 +133,14 @@ Body language Institute website is for a school where people learn body language
 
 - HTML
   - Returned errors were and warnings when passing through the official [W3C validator](Read in text.info in assets)
-  - Index HTML [Home Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/index.html)
-  - UFE HTML [UFE Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/ufe.html)
-  - ABOUT HTML [Abput Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/about.html)
-  - SIGN-UP HTML [SIGN-UP Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/sign-up.html)
+  - [Home Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/index.html)
+  - [UFE Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/ufe.html)
+  - [About Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/about.html)
+  - [Sign-up Page](https://validator.w3.org/nu/?doc=https://zakariyenor.github.io/silver-engine/sign-up.html)
   
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](More info in TESTING.md file)
+  - No errors were found when passing through the official. More info [TESTING.md](TESTING.md).
+  - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://zakariyenor.github.io/silver-engine/index.html)
 
 ## Deployment
 
